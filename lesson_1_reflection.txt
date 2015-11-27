@@ -1,0 +1,41 @@
+Recall the previous version
+
+Remind you what was done and what was changed
+
+Have an audit trail of changes
+
+Git = design with codes in mind = VCS Version control system.
+
+Checkpoint = Commits
+
+Concept Map <--- Version Control -> Manual Savings, Git <=== Commit : a component or a part of connection of Git <--- diff: operate on 2 relationships
+
+Git can be used *** offline ****
+
+Git commit is your choice based on a logical purpose.  Google Docs commit is on a different drum beat - commit based on Google algorithm and not necessary for a logical purpose from your perspective.
+
+repositary: a collection of connected files that can be changed in one commit.  THis is a necessity so all files can be stored and used together to prevent out-of-sync updates.  Google's individual file commit does not make sense.
+
+Use git log to view the history of commit ids / files
+
+Use git diff first_id second_id to identify changes: what are added and/or deleted.
+
+Git <--- Repository <--- Commit <---- diff
+             ^
+             |
+          Clone
+
+You can find when the bugs are introduced.
+
+You can take more risks without worrying about breaking the project.
+
+Give you the idea of exploration of large space to try without worrying about breaking anything.
+
+Use Git for keeping a history of changes / commit.  Risk free and not worry about damaging anything.
+
+Useful gitbash commands:
+git diff :  compare two versions to show changes.
+git checkout: access old versions of your files.  git uses the commit IDs to refer to different versions of the files.
+git clone: to clone an existing repository
+git log: to show commits made to a repository
+git checkout: to temporarily reset all files in a respository to the state at the time of a specific commit.
