@@ -5,3 +5,5 @@ Today we learned about how to add a remote connection to github.  It involved:
 4) In git bash, enter: git remote add origin https: ....
 5) This establishes a link between your local directory and github repository
 6) git push origin master: push the local master branch to the origin repository on github
+
+You want to use a remote repository to share and collaborate your work.
